@@ -1,0 +1,5 @@
+/dist
+/config
+/scripts
+/flow-typed
+**/**/__tests__

@@ -1,0 +1,95 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": [
+            "last 2 Chrome versions"
+          ]
+        }
+      }
+    ],
+    "react",
+    "flow"
+  ],
+  "plugins": [
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    "syntax-dynamic-import",
+    "transform-async-to-generator",
+    [
+      "babel-plugin-styled-components",
+      {
+        "minify": false,
+        "uglifyPure": false
+      }
+    ]
+  ],
+  "env": {
+    "production:cjs": {
+      "presets": [
+        [
+          "env",
+          {
+            "modules": "commonjs"
+          }
+        ],
+        "react",
+        "flow"
+      ],
+      "plugins": [
+        "transform-class-properties",
+        "transform-object-rest-spread",
+        "transform-runtime"
+      ],
+      "ignore": [
+        "__mocks__",
+        "__fixtures__",
+        "__tests__",
+        "coverage",
+        "flow-coverage",
+        "src/setupTests.js",
+        "node_modules"
+      ]
+    },
+    "production:esm": {
+      "presets": [
+        [
+          "env",
+          {
+            "modules": false
+          }
+        ],
+        "react",
+        "flow"
+      ],
+      "plugins": [
+        "transform-class-properties",
+        "transform-object-rest-spread",
+        "transform-runtime"
+      ],
+      "ignore": [
+        "__mocks__",
+        "__fixtures__",
+        "__tests__",
+        "coverage",
+        "flow-coverage",
+        "src/setupTests.js",
+        "node_modules"
+      ]
+    },
+    "test": {
+      "presets": [
+        "env",
+        "react",
+        "flow"
+      ],
+      "plugins": [
+        "transform-class-properties",
+        "transform-object-rest-spread"
+      ]
+    }
+  }
+}
