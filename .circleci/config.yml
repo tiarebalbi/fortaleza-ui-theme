@@ -1,0 +1,41 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/fortaleza-packages
+    docker:
+      - image: circleci/node:9.9.0
+    environment:
+      CC_TEST_REPORTER_ID: 93a5955eac2505559e66bfa1bb4fde148942169e953317a7bc2c7aea8f4943b4
+      NPM_TOKEN: f9adfa8c-1943-4190-b097-57f6f1989f28
+      CODECOV_TOKEN: 5cf3b4b2-858c-4662-afb2-9dd7bd011efb
+    steps:
+      - checkout
+      - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+      - run: yarn config set registry https://registry.npmjs.org/
+      - run: yarn config list
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name: install-yarn
+          command: yarn
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+      - run:
+          name: Setup Code Climate test-reporter
+          command: |
+            curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+            chmod +x ./cc-test-reporter
+      - run:
+          name: "Test"
+          command: |
+            ./cc-test-reporter before-build
+            yarn ci
+            ./cc-test-reporter after-build --coverage-input-type lcov  --exit-code $?
+
+workflows:
+  version: 2
+  build-n-deploy:
+    jobs:
+      - build
