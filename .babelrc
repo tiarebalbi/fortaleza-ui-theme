@@ -25,7 +25,8 @@
         "minify": false,
         "uglifyPure": false
       }
-    ]
+    ],
+    ["import", { "libraryName": "antd", "style": "css" }]
   ],
   "env": {
     "production:cjs": {
