@@ -5,7 +5,7 @@ jobs:
     docker:
       - image: circleci/node:9.9.0
     environment:
-      CC_TEST_REPORTER_ID: 93a5955eac2505559e66bfa1bb4fde148942169e953317a7bc2c7aea8f4943b4
+      CC_TEST_REPORTER_ID: d7e2b90f97faae602d8cce6dc25dd531ee644f685bb31bb55a2aa45d39676f7a
       NPM_TOKEN: f9adfa8c-1943-4190-b097-57f6f1989f28
       CODECOV_TOKEN: 5cf3b4b2-858c-4662-afb2-9dd7bd011efb
     steps:
