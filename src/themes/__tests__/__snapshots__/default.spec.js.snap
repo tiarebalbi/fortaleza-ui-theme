@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`default/theme should match style 1`] = `
+<styled.section>
+  <section
+    className="sc-bdVaJa eiTxWZ"
+  />
+</styled.section>
+`;
