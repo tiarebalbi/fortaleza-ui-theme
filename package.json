@@ -37,7 +37,7 @@
     "prop-types": "^15.6.1",
     "react": "^16.3.1",
     "react-dev-utils": "^5.0.1",
-    "react-dom": "^16.3.0",
+    "react-dom": "^16.3.1",
     "react-styled-flexboxgrid": "^2.2.0",
     "style-loader": "0.20.3",
     "styled-components": "^3.2.5",
