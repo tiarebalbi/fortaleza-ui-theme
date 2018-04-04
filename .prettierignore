@@ -2,3 +2,4 @@ dist
 coverage
 flow-coverage
 node_modules
+examples
