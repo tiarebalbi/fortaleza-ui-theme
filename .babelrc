@@ -50,6 +50,7 @@
         "__fixtures__",
         "__tests__",
         "coverage",
+        "examples",
         "flow-coverage",
         "src/setupTests.js",
         "node_modules"
@@ -76,6 +77,7 @@
         "__fixtures__",
         "__tests__",
         "coverage",
+        "examples",
         "flow-coverage",
         "src/setupTests.js",
         "node_modules"

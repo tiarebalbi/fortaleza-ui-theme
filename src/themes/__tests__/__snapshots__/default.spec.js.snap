@@ -3,7 +3,7 @@
 exports[`default/theme should match style 1`] = `
 <styled.section>
   <section
-    className="sc-bdVaJa eiTxWZ"
+    className="sc-bdVaJa bTqPuK"
   />
 </styled.section>
 `;
