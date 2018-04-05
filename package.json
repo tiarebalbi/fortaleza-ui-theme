@@ -112,6 +112,7 @@
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,mjs}",
       "!src/index.js",
+      "!src/types.js",
       "!examples/**/*",
       "!src/setupTests.js"
     ],

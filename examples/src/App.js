@@ -3,6 +3,8 @@ import './styles/App.css';
 import { ThemeProvider } from 'styled-components';
 import { theme } from '@tiarebalbi/fortaleza-ui-theme';
 
+import ButtonWrapper from './components/ButtonWrapper';
+
 class App extends Component {
   render() {
     return (
@@ -12,7 +14,7 @@ class App extends Component {
             <h1 className="App-title">Grupo Fortaleza - UI Kit</h1>
           </header>
           <div className="App-section">
-            <h1>Form:</h1>
+            <ButtonWrapper />
           </div>
         </div>
       </ThemeProvider>

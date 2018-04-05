@@ -1,8 +1,20 @@
 // @flow
+import * as React from 'react';
 
 export type FormLayout = 'horizontal' | 'vertical' | 'inline';
 export type FormType = {
   layout: FormLayout,
+};
+
+export type ButtonType = {
+  palette?: string,
+  size?: string,
+  disabled?: boolean,
+  loading?: boolean,
+  icon?: string,
+  href?: string,
+  onClick?: () => void,
+  children?: React.Node,
 };
 
 export type Tone = string;

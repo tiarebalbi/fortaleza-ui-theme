@@ -6,8 +6,8 @@ import Form from '../Form';
 describe('Form', () => {
   const wrapper = shallow(<Form />);
 
-  it('should match snapshot', () => {
-    expect(wrapper).toMatchSnapshot();
+  it('should be stateless', () => {
+    expect(wrapper.instance()).toBeNull();
   });
 
   it('should build component using default properties', () => {
