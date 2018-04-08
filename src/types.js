@@ -17,6 +17,20 @@ export type ButtonType = {
   children?: React.Node,
 };
 
+export type TopNavMenuType = {
+  children?: React.Node,
+};
+export type TopNavMenuState = {
+  open: boolean,
+};
+
+export type MenuItemType = {
+  icon?: string,
+  text?: string,
+  ref?: string,
+  href: string,
+};
+
 export type Tone = string;
 export type Tones = Array<Tone>;
 export type Font = string;

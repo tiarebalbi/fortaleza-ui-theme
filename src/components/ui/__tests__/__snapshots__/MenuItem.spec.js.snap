@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/MenuItem should match snapshot 1`] = `
+<MenuItem
+  href="/"
+>
+  <a
+    href="/"
+  />
+</MenuItem>
+`;
