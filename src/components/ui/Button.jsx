@@ -28,9 +28,7 @@ StyledButton.defaultProps = {
 };
 
 const Button = (props: ButtonType) => (
-  <StyledButton { ...props }>
-    { props.children }
-  </StyledButton>
+  <StyledButton {...props}>{props.children}</StyledButton>
 );
 
 export default Button;

@@ -9,11 +9,10 @@ import type { TopNavMenuState, TopNavMenuType } from '../../types';
 import { Icon } from 'antd';
 import { StyledLogo, StyledMenu } from './styles/TopNavMenuStyle';
 
-
 const Logo = () => (
   <StyledLogo>
-    <img src={ logo } className="full" alt="QualitySoft" />
-    <img src={ logoCompact } className="compact" alt="QualitySoft" />
+    <img src={logo} className="full" alt="QualitySoft" />
+    <img src={logoCompact} className="compact" alt="QualitySoft" />
   </StyledLogo>
 );
 
@@ -35,19 +34,21 @@ class TopNavMenu extends React.Component<TopNavMenuType, TopNavMenuState> {
         <Col xs>
           <StyledMenu>
             <Row middle="xs">
-              <Col xs={ 2 }><Logo /></Col>
-              <Col xs={ 10 }>
+              <Col xs={2}>
+                <Logo />
+              </Col>
+              <Col xs={10}>
                 <nav>
-                  <a onClick={ this.toggle } className="toggle">
+                  <a onClick={this.toggle} className="toggle">
                     <Icon type="appstore-o" className="mobile-icon" />
                   </a>
                   <div
-                    className={ cx('options', {
-                      'open': isOpen,
-                      'closed': !isOpen,
-                    }) }
+                    className={cx('options', {
+                      open: isOpen,
+                      closed: !isOpen,
+                    })}
                   >
-                    { children }
+                    {children}
                   </div>
                 </nav>
               </Col>

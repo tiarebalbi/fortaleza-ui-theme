@@ -1,6 +1,6 @@
 {
-  "*.js": [
-    "prettier-eslint --write \"src/**/*.js\"",
+  "*.{js,jsx}": [
+    "prettier-eslint --write \"src/**/*.{js,jsx}\"",
     "git add"
   ]
 }
