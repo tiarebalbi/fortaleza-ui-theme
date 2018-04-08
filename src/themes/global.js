@@ -1,10 +1,13 @@
 // @flow
 
+import reset from 'styled-reset';
 import { injectGlobal } from 'styled-components';
 import { font, palette } from 'styled-theme';
 
 /* eslint no-unused-expressions: 0 */
 injectGlobal`
+  ${reset}
+  
   html,
   body {
     margin: 0;
