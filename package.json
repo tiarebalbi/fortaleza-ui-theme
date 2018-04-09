@@ -15,6 +15,7 @@
     "flow:cov": "flow-coverage-report",
     "lint": "eslint src",
     "lint-staged": "lint-staged",
+    "postmerge": "yarn",
     "precommit": "lint-staged",
     "test": "NODE_ENV=test jest --env=jsdom",
     "test:watch": "jest --env=jsdom --watch",

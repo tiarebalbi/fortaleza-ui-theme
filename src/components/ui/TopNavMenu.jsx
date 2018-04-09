@@ -5,7 +5,7 @@ import { Col, Row } from 'react-styled-flexboxgrid';
 
 import logo from '../../assets/logo-icon.svg';
 import logoCompact from '../../assets/app-icon.svg';
-import type { TopNavMenuState, TopNavMenuType } from '../../types';
+import type { TopNavMenuState, MenuContentType } from '../../types';
 import { Icon } from 'antd';
 import { StyledLogo, StyledMenu } from './styles/TopNavMenuStyle';
 
@@ -16,7 +16,7 @@ const Logo = () => (
   </StyledLogo>
 );
 
-class TopNavMenu extends React.Component<TopNavMenuType, TopNavMenuState> {
+class TopNavMenu extends React.Component<MenuContentType, TopNavMenuState> {
   state = {
     open: false,
   };

@@ -17,13 +17,13 @@ export type ButtonType = {
   children?: React.Node,
 };
 
-export type TopNavMenuType = {
-  children?: React.Node,
-};
 export type TopNavMenuState = {
   open: boolean,
 };
 
+export type MenuContentType = {
+  children?: React.Node,
+};
 export type MenuItemType = {
   icon?: string,
   text?: string,
