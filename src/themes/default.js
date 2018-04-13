@@ -8,7 +8,7 @@ import './global';
 const theme: Theme = {};
 
 theme.palette = {
-  primary: ['#073B4C', '#345F71', '#5C8699', '#84AFC3', '#AED9EF'],
+  primary: ['#194B86', '#456CAA', '#6C8ED0', '#92B2F7', '#B8D8FF'],
   secondary: ['#118AB2', '#006F95', '#00557A', '#003C5F', '#002545'],
   danger: ['#EF476F', '#CC1F54', '#A9003A', '#870023', '#650009'],
   alert: ['#FFD166', '#CBA238', '#997600', '#694D00', '#412600'],
