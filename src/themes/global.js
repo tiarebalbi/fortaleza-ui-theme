@@ -2,7 +2,7 @@
 
 import reset from 'styled-reset';
 import { injectGlobal } from 'styled-components';
-import { font, palette } from 'styled-theme';
+import { palette } from 'styled-theme';
 
 /* eslint no-unused-expressions: 0 */
 injectGlobal`
@@ -17,7 +17,7 @@ injectGlobal`
     
     color: ${palette(0)};
     font-size: 14px;
-    font-family: ${font('primary')};
+    font-family: 'Roboto', sans-serif !important;
   }
   
   #root {

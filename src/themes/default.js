@@ -20,8 +20,8 @@ theme.palette = {
 theme.reversePalette = reversePalette(theme.palette);
 
 theme.fonts = {
-  primary: 'Helvetica Neue, Helvetica, Roboto, sans-serif',
-  pre: 'Consolas, Liberation Mono, Menlo, Courier, monospace',
+  primary: 'Roboto, sans-serif',
+  pre: 'Consolas, Liberation Mono, Courier, monospace',
   quote: 'Georgia, serif',
 };
 
