@@ -16,14 +16,27 @@ export type ButtonType = {
   onClick?: () => void,
   children?: React.Node,
 };
+export type Link = {
+  name: string,
+  href: string,
+  icon?: string,
+};
 
-export type TopNavMenuState = {
+export type PageSubMenuType = {
+  title: string,
+  description?: string,
+  link?: Link,
+  children?: React.Node,
+};
+
+export type ToggleMenuState = {
   open: boolean,
 };
 
 export type MenuContentType = {
   children?: React.Node,
 };
+
 export type MenuItemType = {
   icon?: string,
   text?: string,
@@ -43,4 +56,24 @@ export type Theme = {
   reversePalette?: Palette,
   fonts?: Fonts,
   sizes?: Sizes,
+};
+
+export type TopType = {
+  children?: React.Node,
+};
+
+export type LeftSideType = {
+  children?: React.Node,
+};
+
+export type RightSideType = {
+  children?: React.Node,
+};
+
+export type ContentType = {
+  children?: React.Node,
+};
+
+export type LayoutType = {
+  children?: React.Node,
 };

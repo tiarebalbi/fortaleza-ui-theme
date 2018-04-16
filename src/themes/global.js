@@ -18,6 +18,7 @@ injectGlobal`
     color: ${palette(0)};
     font-size: 14px;
     font-family: 'Roboto', sans-serif !important;
+    background: #F2F9FF;
   }
   
   #root {

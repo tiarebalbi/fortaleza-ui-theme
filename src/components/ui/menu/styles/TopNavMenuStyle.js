@@ -1,7 +1,7 @@
 // @flow
 
 import styled from 'styled-components';
-import { media } from '../../../themes/utils';
+import { media } from '../../../../themes/utils';
 import { palette } from 'styled-theme';
 
 export const StyledMenu = styled.header`
@@ -18,6 +18,7 @@ export const StyledMenu = styled.header`
   top: 0;
   z-index: 200;
   ${media.phone`min-height: 61px;`};
+
   nav {
     i.anticon.mobile-icon {
       text-align: right;

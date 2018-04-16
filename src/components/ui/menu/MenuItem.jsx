@@ -2,7 +2,7 @@
 import * as React from 'react';
 import { Icon } from 'antd';
 
-import type { MenuItemType } from '../../types';
+import type { MenuItemType } from '../../../types';
 
 const MenuItem = ({ icon, text, href, ref }: MenuItemType) => (
   <a href={href} ref={ref}>

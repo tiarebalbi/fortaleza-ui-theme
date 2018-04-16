@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout Content should be able to match snapshot 1`] = `
+<Content>
+  <styled.div>
+    <div
+      className="sc-bdVaJa JoqXo"
+    >
+      Sample
+    </div>
+  </styled.div>
+</Content>
+`;
+
+exports[`Layout Layout should be able to match snapshot 1`] = `
+<Layout>
+  <ThemeProvider
+    theme={
+      Object {
+        "fonts": Object {
+          "pre": "Consolas, Liberation Mono, Courier, monospace",
+          "primary": "Roboto, sans-serif",
+          "quote": "Georgia, serif",
+        },
+        "palette": Object {
+          "alert": Array [
+            "#FFD166",
+            "#CBA238",
+            "#997600",
+            "#694D00",
+            "#412600",
+          ],
+          "danger": Array [
+            "#EF476F",
+            "#CC1F54",
+            "#A9003A",
+            "#870023",
+            "#650009",
+          ],
+          "grayscale": Array [
+            "#38383D",
+            "#6F707A",
+            "#CACDDF",
+            "#D3D6E4",
+            "#EBECF3",
+          ],
+          "primary": Array [
+            "#194B86",
+            "#456CAA",
+            "#6C8ED0",
+            "#92B2F7",
+            "#B8D8FF",
+          ],
+          "secondary": Array [
+            "#FF9E00",
+            "#D07800",
+            "#A35300",
+            "#793000",
+            "#550A00",
+          ],
+          "success": Array [
+            "#06D6A0",
+            "#00AB78",
+            "#008153",
+            "#005930",
+            "#00340F",
+          ],
+          "white": Array [
+            "#fff",
+            "#F9F9FC",
+            "#919191",
+            "#5E5E5E",
+            "#303030",
+          ],
+        },
+        "reversePalette": Object {
+          "alert": Array [
+            "#412600",
+            "#694D00",
+            "#997600",
+            "#CBA238",
+            "#FFD166",
+          ],
+          "danger": Array [
+            "#650009",
+            "#870023",
+            "#A9003A",
+            "#CC1F54",
+            "#EF476F",
+          ],
+          "grayscale": Array [
+            "#EBECF3",
+            "#D3D6E4",
+            "#CACDDF",
+            "#6F707A",
+            "#38383D",
+          ],
+          "primary": Array [
+            "#B8D8FF",
+            "#92B2F7",
+            "#6C8ED0",
+            "#456CAA",
+            "#194B86",
+          ],
+          "secondary": Array [
+            "#550A00",
+            "#793000",
+            "#A35300",
+            "#D07800",
+            "#FF9E00",
+          ],
+          "success": Array [
+            "#00340F",
+            "#005930",
+            "#008153",
+            "#00AB78",
+            "#06D6A0",
+          ],
+          "white": Array [
+            "#303030",
+            "#5E5E5E",
+            "#919191",
+            "#F9F9FC",
+            "#fff",
+          ],
+        },
+        "sizes": Object {
+          "maxWidth": "1100px",
+        },
+      }
+    }
+  >
+    <styled.div>
+      <div
+        className="sc-htpNat kzWjOO"
+      >
+        <styled.div>
+          <div
+            className="sc-bwzfXH fKyror"
+          >
+            Este sistema não suporta acesso via celular.
+          </div>
+        </styled.div>
+        Sample
+      </div>
+    </styled.div>
+  </ThemeProvider>
+</Layout>
+`;
