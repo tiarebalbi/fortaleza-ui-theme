@@ -1,5 +1,5 @@
 import React from 'react';
-import { SideNavMenu } from '../menu';
+import { SideNavMenu } from '../index';
 import { mount } from 'enzyme';
 
 const setup = (props = {}) => {

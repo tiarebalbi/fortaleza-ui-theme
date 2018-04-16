@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/PageSubMenu should be able to match snapshot 1`] = `
+<PageSubMenu
+  title="Home"
+>
+  <styled.div>
+    <div
+      className="sc-gzVnrw bIIlHi"
+    >
+      <div
+        className="title-content"
+      >
+        <h1>
+          Home
+        </h1>
+      </div>
+      <div
+        className="options"
+      />
+    </div>
+  </styled.div>
+</PageSubMenu>
+`;

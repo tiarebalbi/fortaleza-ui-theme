@@ -1,7 +1,7 @@
 // @flow
 
 import styled from 'styled-components';
-import { media } from '../../../themes/utils';
+import { media } from '../../../../themes/utils';
 import { palette } from 'styled-theme';
 
 export const StyledMenu = styled.header`
@@ -18,7 +18,12 @@ export const StyledMenu = styled.header`
   top: 0;
   z-index: 200;
   ${media.phone`min-height: 61px;`};
+
   nav {
+    float: right;
+    height: 45px;
+    line-height: 45px;
+
     i.anticon.mobile-icon {
       text-align: right;
       font-size: 18px;
@@ -27,7 +32,6 @@ export const StyledMenu = styled.header`
       ${media.phone`display: inline;`};
     }
     .toggle {
-      float: right;
       width: 18px;
       height: 18px;
     }
@@ -49,7 +53,7 @@ export const StyledMenu = styled.header`
 
 export const StyledLogo = styled.div`
   text-align: left;
-
+  float: left;
   .full {
     height: 45px;
     visibility: visible;

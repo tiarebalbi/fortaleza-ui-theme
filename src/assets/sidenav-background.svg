@@ -1,0 +1,33 @@
+
+<svg width="260px" height="230px" viewBox="0 0 260 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+  <desc>Created with Sketch.</desc>
+  <defs>
+    <rect id="path-1" x="0" y="0" width="259.6875" height="959"></rect>
+    <path d="M59.0750238,229.814448 C179.566127,229.814448 174.977008,126.515923 174.977008,26.3558518 C174.977008,-73.8042194 138.659544,-155 18.1684411,-155 C-102.322662,-155 -200,-73.8042194 -200,26.3558518 C-200,126.515923 -61.4160791,229.814448 59.0750238,229.814448 Z" id="path-3"></path>
+    <pattern id="pattern-4" width="16.3308824" height="16.3308824" x="-216.330882" y="-171.330882" patternUnits="userSpaceOnUse">
+      <use xlink:href="#image-5" transform="scale(0.340226716,0.340226716)"></use>
+    </pattern>
+    <image id="image-5" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAEGWlDQ1BrQ0dDb2xvclNwYWNlR2VuZXJpY1JHQgAAOI2NVV1oHFUUPrtzZyMkzlNsNIV0qD8NJQ2TVjShtLp/3d02bpZJNtoi6GT27s6Yyc44M7v9oU9FUHwx6psUxL+3gCAo9Q/bPrQvlQol2tQgKD60+INQ6Ium65k7M5lpurHeZe58853vnnvuuWfvBei5qliWkRQBFpquLRcy4nOHj4g9K5CEh6AXBqFXUR0rXalMAjZPC3e1W99Dwntf2dXd/p+tt0YdFSBxH2Kz5qgLiI8B8KdVy3YBevqRHz/qWh72Yui3MUDEL3q44WPXw3M+fo1pZuQs4tOIBVVTaoiXEI/MxfhGDPsxsNZfoE1q66ro5aJim3XdoLFw72H+n23BaIXzbcOnz5mfPoTvYVz7KzUl5+FRxEuqkp9G/Ajia219thzg25abkRE/BpDc3pqvphHvRFys2weqvp+krbWKIX7nhDbzLOItiM8358pTwdirqpPFnMF2xLc1WvLyOwTAibpbmvHHcvttU57y5+XqNZrLe3lE/Pq8eUj2fXKfOe3pfOjzhJYtB/yll5SDFcSDiH+hRkH25+L+sdxKEAMZahrlSX8ukqMOWy/jXW2m6M9LDBc31B9LFuv6gVKg/0Szi3KAr1kGq1GMjU/aLbnq6/lRxc4XfJ98hTargX++DbMJBSiYMIe9Ck1YAxFkKEAG3xbYaKmDDgYyFK0UGYpfoWYXG+fAPPI6tJnNwb7ClP7IyF+D+bjOtCpkhz6CFrIa/I6sFtNl8auFXGMTP34sNwI/JhkgEtmDz14ySfaRcTIBInmKPE32kxyyE2Tv+thKbEVePDfW/byMM1Kmm0XdObS7oGD/MypMXFPXrCwOtoYjyyn7BV29/MZfsVzpLDdRtuIZnbpXzvlf+ev8MvYr/Gqk4H/kV/G3csdazLuyTMPsbFhzd1UabQbjFvDRmcWJxR3zcfHkVw9GfpbJmeev9F08WW8uDkaslwX6avlWGU6NRKz0g/SHtCy9J30o/ca9zX3Kfc19zn3BXQKRO8ud477hLnAfc1/G9mrzGlrfexZ5GLdn6ZZrrEohI2wVHhZywjbhUWEy8icMCGNCUdiBlq3r+xafL549HQ5jH+an+1y+LlYBifuxAvRN/lVVVOlwlCkdVm9NOL5BE4wkQ2SMlDZU97hX86EilU/lUmkQUztTE6mx1EEPh7OmdqBtAvv8HdWpbrJS6tJj3n0CWdM6busNzRV3S9KTYhqvNiqWmuroiKgYhshMjmhTh9ptWhsF7970j/SbMrsPE1suR5z7DMC+P/Hs+y7ijrQAlhyAgccjbhjPygfeBTjzhNqy28EdkUh8C+DU9+z2v/oyeH791OncxHOs5y2AtTc7nb/f73TWPkD/qwBnjX8BoJ98VQNcC+8AAAFFSURBVGgF7djbDYMwDAXQBjEMYqyqY1WMxTppLiJIQIA8ariWkp8IPuweO60am67r7MstY8wwjuPH7dMz3uUua63p+/7r9rePIRW/9QmQzCV9ub0YgSIgzhxvQkjFb1EZBAdEKolkfJTqtnb7bv/zOJm58moRE0AzYgFoRawAGhE7gDZEEKAJcQjQgjgFaEBcAtgRUQBmRDSAFZEEYEQkA9gQWQAmRDaABVEEYEAUAx5H4EaGOyw+SMl66mbXzNOD4k6gCPNUY/CFwF1YOn5zRxJJRINqaUbUuZA/79sd3wm3xIdbdS60rXzo2XVCbO60/HxKJgFKKv4CkEziuyKBWAE0InYAbYggQBPiEKAFcQrQgLgEsCOiAMyIaAArIgnAiEgGsCGyAEyIbAALogjAgCgGPI7AX9w6F3JtqHMhnMWLFSrSD9jOnakVHpZYAAAAAElFTkSuQmCC"></image>
+  </defs>
+  <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Clientes---Dashboard" transform="translate(-127.000000, -65.000000)">
+      <g id="conteudo">
+        <g id="Filtro" transform="translate(126.312500, 65.000000)">
+          <g id="bg" transform="translate(1.000000, 0.000000)">
+            <mask id="mask-2" fill="white">
+              <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Oval-4" mask="url(#mask-2)">
+              <use fill="#FF9900" xlink:href="#path-3"></use>
+              <use fill-opacity="0.109999999" fill="url(#pattern-4)" style="mix-blend-mode: screen;" xlink:href="#path-3"></use>
+            </g>
+            <path d="M321.633678,104.66016 C268.400074,199.359016 121.592492,100.88189 74.765879,25.9436451 C27.9392665,-48.9945998 23.3511609,-135.000644 98.2894058,-181.827257 C173.227651,-228.653869 247.089945,-233.851632 318.764183,-130.926643 C390.438422,-28.0016555 374.867282,9.96130384 321.633678,104.66016 Z" id="Oval-4-Copy" fill="#212C68" mask="url(#mask-2)"></path>
+            <path d="M66.9590211,212.025711 C9.57111234,171.842264 76.4814675,37.1953288 111.035237,-18.0728939 C145.589007,-73.3411166 185.667987,-109.821976 243.055896,-69.6385293 C300.443805,-29.455083 273.71084,4.76563122 279.516359,99.4479595 C285.321878,194.130288 124.34693,252.209157 66.9590211,212.025711 Z" id="Oval-4-Copy-2" fill="#194B86" mask="url(#mask-2)"></path>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
