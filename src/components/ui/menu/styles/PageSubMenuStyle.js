@@ -46,6 +46,24 @@ const PageSubMenuStyle = styled.div`
       width: 100%;
     }
   }
+  .options {
+    a {
+      border-bottom: solid 0.1rem #d9daeb;
+      color: ${palette(0, 'primary')} !important;
+      cursor: pointer;
+      display: block;
+      height: 3.5rem;
+      line-height: 3.5rem;
+      padding-left: 1.5rem;
+      font-size: 14px;
+
+      &:hover {
+        color: ${palette(0, 'secondary')} !important;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+  }
 `;
 
 export default PageSubMenuStyle;
