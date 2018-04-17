@@ -1,6 +1,6 @@
 {
   "name": "@tiarebalbi/fortaleza-ui-theme",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "UI Theme",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -8,6 +8,9 @@
   "author": "Tiarê Balbi <me@tiarebalbi.com>",
   "license": "MIT",
   "private": false,
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "ci": "NODE_ENV=test CI=true run-p flow lint-staged test:cov",
     "flow": "flow",
