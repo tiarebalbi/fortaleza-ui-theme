@@ -27,7 +27,7 @@ exports[`ui/Table should render as expected 1`] = `
   >
     <Table
       bordered={false}
-      className="sc-bdVaJa OPSar"
+      className="sc-bdVaJa liRjEU"
       columns={
         Array [
           Object {
@@ -48,7 +48,7 @@ exports[`ui/Table should render as expected 1`] = `
       useFixedHeader={false}
     >
       <div
-        className="ant-table-wrapper sc-bdVaJa OPSar"
+        className="ant-table-wrapper sc-bdVaJa liRjEU"
       >
         <Spin
           className=""
