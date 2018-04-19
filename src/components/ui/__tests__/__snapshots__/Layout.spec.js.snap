@@ -4,7 +4,7 @@ exports[`Layout Content should be able to match snapshot 1`] = `
 <Content>
   <styled.div>
     <div
-      className="sc-bdVaJa JoqXo"
+      className="sc-bdVaJa bSmQRZ"
     >
       Sample
     </div>
