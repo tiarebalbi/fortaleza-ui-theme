@@ -1,0 +1,1133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/Table should render as expected 1`] = `
+<Table
+  columns={
+    Array [
+      Object {
+        "dataIndex": "name",
+        "title": "Name",
+      },
+    ]
+  }
+  dataSource={Array []}
+  size="small"
+>
+  <Styled(Table)
+    columns={
+      Array [
+        Object {
+          "dataIndex": "name",
+          "title": "Name",
+        },
+      ]
+    }
+    dataSource={Array []}
+    size="small"
+  >
+    <Table
+      bordered={false}
+      className="sc-bdVaJa OPSar"
+      columns={
+        Array [
+          Object {
+            "dataIndex": "name",
+            "title": "Name",
+          },
+        ]
+      }
+      dataSource={Array []}
+      indentSize={20}
+      loading={false}
+      locale={Object {}}
+      prefixCls="ant-table"
+      rowKey="key"
+      rowSelection={null}
+      showHeader={true}
+      size="small"
+      useFixedHeader={false}
+    >
+      <div
+        className="ant-table-wrapper sc-bdVaJa OPSar"
+      >
+        <Spin
+          className=""
+          prefixCls="ant-spin"
+          size="default"
+          spinning={false}
+          wrapperClassName=""
+        >
+          <Animate
+            animation={Object {}}
+            className="ant-spin-nested-loading"
+            component="div"
+            componentProps={Object {}}
+            onAppear={[Function]}
+            onEnd={[Function]}
+            onEnter={[Function]}
+            onLeave={[Function]}
+            style={null}
+            transitionAppear={false}
+            transitionEnter={true}
+            transitionLeave={true}
+            transitionName="fade"
+          >
+            <div
+              className="ant-spin-nested-loading"
+              style={null}
+            >
+              <AnimateChild
+                animation={Object {}}
+                key="container"
+                transitionAppear={false}
+                transitionEnter={true}
+                transitionLeave={true}
+                transitionName="fade"
+              >
+                <div
+                  className="ant-spin-container"
+                  key="container"
+                >
+                  <LocaleReceiver
+                    componentName="Table"
+                    defaultLocale={
+                      Object {
+                        "emptyText": "No data",
+                        "filterConfirm": "OK",
+                        "filterReset": "Reset",
+                        "filterTitle": "Filter menu",
+                        "selectAll": "Select current page",
+                        "selectInvert": "Invert current page",
+                      }
+                    }
+                  >
+                    <Table
+                      bodyStyle={Object {}}
+                      bordered={false}
+                      className="ant-table-small ant-table-empty"
+                      columns={
+                        Array [
+                          Object {
+                            "dataIndex": "name",
+                            "key": "name",
+                            "title": <span>
+                              Name
+                            </span>,
+                          },
+                        ]
+                      }
+                      components={
+                        Object {
+                          "body": Object {
+                            "row": [Function],
+                          },
+                        }
+                      }
+                      data={Array []}
+                      dataSource={Array []}
+                      emptyText="No data"
+                      expandIconColumnIndex={0}
+                      indentSize={20}
+                      key="table"
+                      loading={false}
+                      locale={Object {}}
+                      onHeaderRow={[Function]}
+                      onRow={[Function]}
+                      prefixCls="ant-table"
+                      rowClassName={[Function]}
+                      rowKey="key"
+                      rowRef={[Function]}
+                      rowSelection={null}
+                      scroll={Object {}}
+                      showHeader={true}
+                      size="small"
+                      style={Object {}}
+                      useFixedHeader={false}
+                    >
+                      <Provider
+                        store={
+                          Object {
+                            "getState": [Function],
+                            "setState": [Function],
+                            "subscribe": [Function],
+                          }
+                        }
+                      >
+                        <Connect(ExpandableTable)
+                          bodyStyle={Object {}}
+                          bordered={false}
+                          className="ant-table-small ant-table-empty"
+                          columnManager={
+                            ColumnManager {
+                              "_cached": Object {
+                                "groupedColumns": Array [
+                                  Object {
+                                    "dataIndex": "name",
+                                    "key": "name",
+                                    "title": <span>
+                                      Name
+                                    </span>,
+                                  },
+                                ],
+                                "isAnyColumnsFixed": false,
+                                "isAnyColumnsLeftFixed": false,
+                                "isAnyColumnsRightFixed": false,
+                                "leafColumns": Array [
+                                  Object {
+                                    "dataIndex": "name",
+                                    "key": "name",
+                                    "title": <span>
+                                      Name
+                                    </span>,
+                                  },
+                                ],
+                              },
+                              "columns": Array [
+                                Object {
+                                  "dataIndex": "name",
+                                  "key": "name",
+                                  "title": <span>
+                                    Name
+                                  </span>,
+                                },
+                              ],
+                            }
+                          }
+                          columns={
+                            Array [
+                              Object {
+                                "dataIndex": "name",
+                                "key": "name",
+                                "title": <span>
+                                  Name
+                                </span>,
+                              },
+                            ]
+                          }
+                          components={
+                            Object {
+                              "body": Object {
+                                "row": [Function],
+                              },
+                            }
+                          }
+                          data={Array []}
+                          dataSource={Array []}
+                          emptyText="No data"
+                          expandIconColumnIndex={0}
+                          getRowKey={[Function]}
+                          indentSize={20}
+                          loading={false}
+                          locale={Object {}}
+                          onHeaderRow={[Function]}
+                          onRow={[Function]}
+                          prefixCls="ant-table"
+                          rowClassName={[Function]}
+                          rowKey="key"
+                          rowRef={[Function]}
+                          rowSelection={null}
+                          scroll={Object {}}
+                          showHeader={true}
+                          size="small"
+                          style={Object {}}
+                          useFixedHeader={false}
+                        >
+                          <ExpandableTable
+                            bodyStyle={Object {}}
+                            bordered={false}
+                            childrenColumnName="children"
+                            className="ant-table-small ant-table-empty"
+                            columnManager={
+                              ColumnManager {
+                                "_cached": Object {
+                                  "groupedColumns": Array [
+                                    Object {
+                                      "dataIndex": "name",
+                                      "key": "name",
+                                      "title": <span>
+                                        Name
+                                      </span>,
+                                    },
+                                  ],
+                                  "isAnyColumnsFixed": false,
+                                  "isAnyColumnsLeftFixed": false,
+                                  "isAnyColumnsRightFixed": false,
+                                  "leafColumns": Array [
+                                    Object {
+                                      "dataIndex": "name",
+                                      "key": "name",
+                                      "title": <span>
+                                        Name
+                                      </span>,
+                                    },
+                                  ],
+                                },
+                                "columns": Array [
+                                  Object {
+                                    "dataIndex": "name",
+                                    "key": "name",
+                                    "title": <span>
+                                      Name
+                                    </span>,
+                                  },
+                                ],
+                              }
+                            }
+                            columns={
+                              Array [
+                                Object {
+                                  "dataIndex": "name",
+                                  "key": "name",
+                                  "title": <span>
+                                    Name
+                                  </span>,
+                                },
+                              ]
+                            }
+                            components={
+                              Object {
+                                "body": Object {
+                                  "row": [Function],
+                                },
+                              }
+                            }
+                            data={Array []}
+                            dataSource={Array []}
+                            defaultExpandAllRows={false}
+                            defaultExpandedRowKeys={Array []}
+                            emptyText="No data"
+                            expandIconAsCell={false}
+                            expandIconColumnIndex={0}
+                            expandedRowClassName={[Function]}
+                            getRowKey={[Function]}
+                            indentSize={20}
+                            loading={false}
+                            locale={Object {}}
+                            onExpand={[Function]}
+                            onExpandedRowsChange={[Function]}
+                            onHeaderRow={[Function]}
+                            onRow={[Function]}
+                            prefixCls="ant-table"
+                            rowClassName={[Function]}
+                            rowKey="key"
+                            rowRef={[Function]}
+                            rowSelection={null}
+                            scroll={Object {}}
+                            showHeader={true}
+                            size="small"
+                            store={
+                              Object {
+                                "getState": [Function],
+                                "setState": [Function],
+                                "subscribe": [Function],
+                              }
+                            }
+                            style={Object {}}
+                            useFixedHeader={false}
+                          >
+                            <div
+                              className="ant-table ant-table-small ant-table-empty ant-table-scroll-position-left"
+                              style={Object {}}
+                            >
+                              <div
+                                className="ant-table-content"
+                              >
+                                <HeadTable
+                                  columns={
+                                    Array [
+                                      Object {
+                                        "dataIndex": "name",
+                                        "key": "name",
+                                        "title": <span>
+                                          Name
+                                        </span>,
+                                      },
+                                    ]
+                                  }
+                                  expander={
+                                    Object {
+                                      "handleExpandChange": [Function],
+                                      "needIndentSpaced": false,
+                                      "props": Object {
+                                        "bodyStyle": Object {},
+                                        "bordered": false,
+                                        "children": [Function],
+                                        "childrenColumnName": "children",
+                                        "className": "ant-table-small ant-table-empty",
+                                        "columnManager": ColumnManager {
+                                          "_cached": Object {
+                                            "groupedColumns": Array [
+                                              Object {
+                                                "dataIndex": "name",
+                                                "key": "name",
+                                                "title": <span>
+                                                  Name
+                                                </span>,
+                                              },
+                                            ],
+                                            "isAnyColumnsFixed": false,
+                                            "isAnyColumnsLeftFixed": false,
+                                            "isAnyColumnsRightFixed": false,
+                                            "leafColumns": Array [
+                                              Object {
+                                                "dataIndex": "name",
+                                                "key": "name",
+                                                "title": <span>
+                                                  Name
+                                                </span>,
+                                              },
+                                            ],
+                                          },
+                                          "columns": Array [
+                                            Object {
+                                              "dataIndex": "name",
+                                              "key": "name",
+                                              "title": <span>
+                                                Name
+                                              </span>,
+                                            },
+                                          ],
+                                        },
+                                        "columns": Array [
+                                          Object {
+                                            "dataIndex": "name",
+                                            "key": "name",
+                                            "title": <span>
+                                              Name
+                                            </span>,
+                                          },
+                                        ],
+                                        "components": Object {
+                                          "body": Object {
+                                            "row": [Function],
+                                          },
+                                        },
+                                        "data": Array [],
+                                        "dataSource": Array [],
+                                        "defaultExpandAllRows": false,
+                                        "defaultExpandedRowKeys": Array [],
+                                        "emptyText": "No data",
+                                        "expandIconAsCell": false,
+                                        "expandIconColumnIndex": 0,
+                                        "expandedRowClassName": [Function],
+                                        "getRowKey": [Function],
+                                        "indentSize": 20,
+                                        "loading": false,
+                                        "locale": Object {},
+                                        "onExpand": [Function],
+                                        "onExpandedRowsChange": [Function],
+                                        "onHeaderRow": [Function],
+                                        "onRow": [Function],
+                                        "prefixCls": "ant-table",
+                                        "rowClassName": [Function],
+                                        "rowKey": "key",
+                                        "rowRef": [Function],
+                                        "rowSelection": null,
+                                        "scroll": Object {},
+                                        "showHeader": true,
+                                        "size": "small",
+                                        "store": Object {
+                                          "getState": [Function],
+                                          "setState": [Function],
+                                          "subscribe": [Function],
+                                        },
+                                        "style": Object {},
+                                        "useFixedHeader": false,
+                                      },
+                                      "renderExpandIndentCell": [Function],
+                                      "renderRows": [Function],
+                                    }
+                                  }
+                                  handleBodyScrollLeft={[Function]}
+                                  key="head"
+                                  tableClassName=""
+                                />
+                                <BodyTable
+                                  columns={
+                                    Array [
+                                      Object {
+                                        "dataIndex": "name",
+                                        "key": "name",
+                                        "title": <span>
+                                          Name
+                                        </span>,
+                                      },
+                                    ]
+                                  }
+                                  expander={
+                                    Object {
+                                      "handleExpandChange": [Function],
+                                      "needIndentSpaced": false,
+                                      "props": Object {
+                                        "bodyStyle": Object {},
+                                        "bordered": false,
+                                        "children": [Function],
+                                        "childrenColumnName": "children",
+                                        "className": "ant-table-small ant-table-empty",
+                                        "columnManager": ColumnManager {
+                                          "_cached": Object {
+                                            "groupedColumns": Array [
+                                              Object {
+                                                "dataIndex": "name",
+                                                "key": "name",
+                                                "title": <span>
+                                                  Name
+                                                </span>,
+                                              },
+                                            ],
+                                            "isAnyColumnsFixed": false,
+                                            "isAnyColumnsLeftFixed": false,
+                                            "isAnyColumnsRightFixed": false,
+                                            "leafColumns": Array [
+                                              Object {
+                                                "dataIndex": "name",
+                                                "key": "name",
+                                                "title": <span>
+                                                  Name
+                                                </span>,
+                                              },
+                                            ],
+                                          },
+                                          "columns": Array [
+                                            Object {
+                                              "dataIndex": "name",
+                                              "key": "name",
+                                              "title": <span>
+                                                Name
+                                              </span>,
+                                            },
+                                          ],
+                                        },
+                                        "columns": Array [
+                                          Object {
+                                            "dataIndex": "name",
+                                            "key": "name",
+                                            "title": <span>
+                                              Name
+                                            </span>,
+                                          },
+                                        ],
+                                        "components": Object {
+                                          "body": Object {
+                                            "row": [Function],
+                                          },
+                                        },
+                                        "data": Array [],
+                                        "dataSource": Array [],
+                                        "defaultExpandAllRows": false,
+                                        "defaultExpandedRowKeys": Array [],
+                                        "emptyText": "No data",
+                                        "expandIconAsCell": false,
+                                        "expandIconColumnIndex": 0,
+                                        "expandedRowClassName": [Function],
+                                        "getRowKey": [Function],
+                                        "indentSize": 20,
+                                        "loading": false,
+                                        "locale": Object {},
+                                        "onExpand": [Function],
+                                        "onExpandedRowsChange": [Function],
+                                        "onHeaderRow": [Function],
+                                        "onRow": [Function],
+                                        "prefixCls": "ant-table",
+                                        "rowClassName": [Function],
+                                        "rowKey": "key",
+                                        "rowRef": [Function],
+                                        "rowSelection": null,
+                                        "scroll": Object {},
+                                        "showHeader": true,
+                                        "size": "small",
+                                        "store": Object {
+                                          "getState": [Function],
+                                          "setState": [Function],
+                                          "subscribe": [Function],
+                                        },
+                                        "style": Object {},
+                                        "useFixedHeader": false,
+                                      },
+                                      "renderExpandIndentCell": [Function],
+                                      "renderRows": [Function],
+                                    }
+                                  }
+                                  getRowKey={[Function]}
+                                  handleBodyScroll={[Function]}
+                                  handleWheel={[Function]}
+                                  isAnyColumnsFixed={false}
+                                  key="body"
+                                  tableClassName=""
+                                >
+                                  <div
+                                    className="ant-table-body"
+                                    key="bodyTable"
+                                    onScroll={[Function]}
+                                    onWheel={[Function]}
+                                    style={Object {}}
+                                  >
+                                    <Connect(BaseTable)
+                                      columns={
+                                        Array [
+                                          Object {
+                                            "dataIndex": "name",
+                                            "key": "name",
+                                            "title": <span>
+                                              Name
+                                            </span>,
+                                          },
+                                        ]
+                                      }
+                                      expander={
+                                        Object {
+                                          "handleExpandChange": [Function],
+                                          "needIndentSpaced": false,
+                                          "props": Object {
+                                            "bodyStyle": Object {},
+                                            "bordered": false,
+                                            "children": [Function],
+                                            "childrenColumnName": "children",
+                                            "className": "ant-table-small ant-table-empty",
+                                            "columnManager": ColumnManager {
+                                              "_cached": Object {
+                                                "groupedColumns": Array [
+                                                  Object {
+                                                    "dataIndex": "name",
+                                                    "key": "name",
+                                                    "title": <span>
+                                                      Name
+                                                    </span>,
+                                                  },
+                                                ],
+                                                "isAnyColumnsFixed": false,
+                                                "isAnyColumnsLeftFixed": false,
+                                                "isAnyColumnsRightFixed": false,
+                                                "leafColumns": Array [
+                                                  Object {
+                                                    "dataIndex": "name",
+                                                    "key": "name",
+                                                    "title": <span>
+                                                      Name
+                                                    </span>,
+                                                  },
+                                                ],
+                                              },
+                                              "columns": Array [
+                                                Object {
+                                                  "dataIndex": "name",
+                                                  "key": "name",
+                                                  "title": <span>
+                                                    Name
+                                                  </span>,
+                                                },
+                                              ],
+                                            },
+                                            "columns": Array [
+                                              Object {
+                                                "dataIndex": "name",
+                                                "key": "name",
+                                                "title": <span>
+                                                  Name
+                                                </span>,
+                                              },
+                                            ],
+                                            "components": Object {
+                                              "body": Object {
+                                                "row": [Function],
+                                              },
+                                            },
+                                            "data": Array [],
+                                            "dataSource": Array [],
+                                            "defaultExpandAllRows": false,
+                                            "defaultExpandedRowKeys": Array [],
+                                            "emptyText": "No data",
+                                            "expandIconAsCell": false,
+                                            "expandIconColumnIndex": 0,
+                                            "expandedRowClassName": [Function],
+                                            "getRowKey": [Function],
+                                            "indentSize": 20,
+                                            "loading": false,
+                                            "locale": Object {},
+                                            "onExpand": [Function],
+                                            "onExpandedRowsChange": [Function],
+                                            "onHeaderRow": [Function],
+                                            "onRow": [Function],
+                                            "prefixCls": "ant-table",
+                                            "rowClassName": [Function],
+                                            "rowKey": "key",
+                                            "rowRef": [Function],
+                                            "rowSelection": null,
+                                            "scroll": Object {},
+                                            "showHeader": true,
+                                            "size": "small",
+                                            "store": Object {
+                                              "getState": [Function],
+                                              "setState": [Function],
+                                              "subscribe": [Function],
+                                            },
+                                            "style": Object {},
+                                            "useFixedHeader": false,
+                                          },
+                                          "renderExpandIndentCell": [Function],
+                                          "renderRows": [Function],
+                                        }
+                                      }
+                                      getRowKey={[Function]}
+                                      hasBody={true}
+                                      hasHead={true}
+                                      isAnyColumnsFixed={false}
+                                      tableClassName=""
+                                    >
+                                      <BaseTable
+                                        columns={
+                                          Array [
+                                            Object {
+                                              "dataIndex": "name",
+                                              "key": "name",
+                                              "title": <span>
+                                                Name
+                                              </span>,
+                                            },
+                                          ]
+                                        }
+                                        expander={
+                                          Object {
+                                            "handleExpandChange": [Function],
+                                            "needIndentSpaced": false,
+                                            "props": Object {
+                                              "bodyStyle": Object {},
+                                              "bordered": false,
+                                              "children": [Function],
+                                              "childrenColumnName": "children",
+                                              "className": "ant-table-small ant-table-empty",
+                                              "columnManager": ColumnManager {
+                                                "_cached": Object {
+                                                  "groupedColumns": Array [
+                                                    Object {
+                                                      "dataIndex": "name",
+                                                      "key": "name",
+                                                      "title": <span>
+                                                        Name
+                                                      </span>,
+                                                    },
+                                                  ],
+                                                  "isAnyColumnsFixed": false,
+                                                  "isAnyColumnsLeftFixed": false,
+                                                  "isAnyColumnsRightFixed": false,
+                                                  "leafColumns": Array [
+                                                    Object {
+                                                      "dataIndex": "name",
+                                                      "key": "name",
+                                                      "title": <span>
+                                                        Name
+                                                      </span>,
+                                                    },
+                                                  ],
+                                                },
+                                                "columns": Array [
+                                                  Object {
+                                                    "dataIndex": "name",
+                                                    "key": "name",
+                                                    "title": <span>
+                                                      Name
+                                                    </span>,
+                                                  },
+                                                ],
+                                              },
+                                              "columns": Array [
+                                                Object {
+                                                  "dataIndex": "name",
+                                                  "key": "name",
+                                                  "title": <span>
+                                                    Name
+                                                  </span>,
+                                                },
+                                              ],
+                                              "components": Object {
+                                                "body": Object {
+                                                  "row": [Function],
+                                                },
+                                              },
+                                              "data": Array [],
+                                              "dataSource": Array [],
+                                              "defaultExpandAllRows": false,
+                                              "defaultExpandedRowKeys": Array [],
+                                              "emptyText": "No data",
+                                              "expandIconAsCell": false,
+                                              "expandIconColumnIndex": 0,
+                                              "expandedRowClassName": [Function],
+                                              "getRowKey": [Function],
+                                              "indentSize": 20,
+                                              "loading": false,
+                                              "locale": Object {},
+                                              "onExpand": [Function],
+                                              "onExpandedRowsChange": [Function],
+                                              "onHeaderRow": [Function],
+                                              "onRow": [Function],
+                                              "prefixCls": "ant-table",
+                                              "rowClassName": [Function],
+                                              "rowKey": "key",
+                                              "rowRef": [Function],
+                                              "rowSelection": null,
+                                              "scroll": Object {},
+                                              "showHeader": true,
+                                              "size": "small",
+                                              "store": Object {
+                                                "getState": [Function],
+                                                "setState": [Function],
+                                                "subscribe": [Function],
+                                              },
+                                              "style": Object {},
+                                              "useFixedHeader": false,
+                                            },
+                                            "renderExpandIndentCell": [Function],
+                                            "renderRows": [Function],
+                                          }
+                                        }
+                                        getRowKey={[Function]}
+                                        hasBody={true}
+                                        hasHead={true}
+                                        isAnyColumnsFixed={false}
+                                        store={
+                                          Object {
+                                            "getState": [Function],
+                                            "setState": [Function],
+                                            "subscribe": [Function],
+                                          }
+                                        }
+                                        tableClassName=""
+                                      >
+                                        <table
+                                          className=""
+                                          key="table"
+                                          style={Object {}}
+                                        >
+                                          <ColGroup
+                                            columns={
+                                              Array [
+                                                Object {
+                                                  "dataIndex": "name",
+                                                  "key": "name",
+                                                  "title": <span>
+                                                    Name
+                                                  </span>,
+                                                },
+                                              ]
+                                            }
+                                          >
+                                            <colgroup>
+                                              <col
+                                                key="name"
+                                                style={
+                                                  Object {
+                                                    "minWidth": undefined,
+                                                    "width": undefined,
+                                                  }
+                                                }
+                                              />
+                                            </colgroup>
+                                          </ColGroup>
+                                          <TableHeader
+                                            columns={
+                                              Array [
+                                                Object {
+                                                  "dataIndex": "name",
+                                                  "key": "name",
+                                                  "title": <span>
+                                                    Name
+                                                  </span>,
+                                                },
+                                              ]
+                                            }
+                                            expander={
+                                              Object {
+                                                "handleExpandChange": [Function],
+                                                "needIndentSpaced": false,
+                                                "props": Object {
+                                                  "bodyStyle": Object {},
+                                                  "bordered": false,
+                                                  "children": [Function],
+                                                  "childrenColumnName": "children",
+                                                  "className": "ant-table-small ant-table-empty",
+                                                  "columnManager": ColumnManager {
+                                                    "_cached": Object {
+                                                      "groupedColumns": Array [
+                                                        Object {
+                                                          "dataIndex": "name",
+                                                          "key": "name",
+                                                          "title": <span>
+                                                            Name
+                                                          </span>,
+                                                        },
+                                                      ],
+                                                      "isAnyColumnsFixed": false,
+                                                      "isAnyColumnsLeftFixed": false,
+                                                      "isAnyColumnsRightFixed": false,
+                                                      "leafColumns": Array [
+                                                        Object {
+                                                          "dataIndex": "name",
+                                                          "key": "name",
+                                                          "title": <span>
+                                                            Name
+                                                          </span>,
+                                                        },
+                                                      ],
+                                                    },
+                                                    "columns": Array [
+                                                      Object {
+                                                        "dataIndex": "name",
+                                                        "key": "name",
+                                                        "title": <span>
+                                                          Name
+                                                        </span>,
+                                                      },
+                                                    ],
+                                                  },
+                                                  "columns": Array [
+                                                    Object {
+                                                      "dataIndex": "name",
+                                                      "key": "name",
+                                                      "title": <span>
+                                                        Name
+                                                      </span>,
+                                                    },
+                                                  ],
+                                                  "components": Object {
+                                                    "body": Object {
+                                                      "row": [Function],
+                                                    },
+                                                  },
+                                                  "data": Array [],
+                                                  "dataSource": Array [],
+                                                  "defaultExpandAllRows": false,
+                                                  "defaultExpandedRowKeys": Array [],
+                                                  "emptyText": "No data",
+                                                  "expandIconAsCell": false,
+                                                  "expandIconColumnIndex": 0,
+                                                  "expandedRowClassName": [Function],
+                                                  "getRowKey": [Function],
+                                                  "indentSize": 20,
+                                                  "loading": false,
+                                                  "locale": Object {},
+                                                  "onExpand": [Function],
+                                                  "onExpandedRowsChange": [Function],
+                                                  "onHeaderRow": [Function],
+                                                  "onRow": [Function],
+                                                  "prefixCls": "ant-table",
+                                                  "rowClassName": [Function],
+                                                  "rowKey": "key",
+                                                  "rowRef": [Function],
+                                                  "rowSelection": null,
+                                                  "scroll": Object {},
+                                                  "showHeader": true,
+                                                  "size": "small",
+                                                  "store": Object {
+                                                    "getState": [Function],
+                                                    "setState": [Function],
+                                                    "subscribe": [Function],
+                                                  },
+                                                  "style": Object {},
+                                                  "useFixedHeader": false,
+                                                },
+                                                "renderExpandIndentCell": [Function],
+                                                "renderRows": [Function],
+                                              }
+                                            }
+                                          >
+                                            <thead
+                                              className="ant-table-thead"
+                                            >
+                                              <Connect(TableHeaderRow)
+                                                columns={
+                                                  Array [
+                                                    Object {
+                                                      "dataIndex": "name",
+                                                      "key": "name",
+                                                      "title": <span>
+                                                        Name
+                                                      </span>,
+                                                    },
+                                                  ]
+                                                }
+                                                components={
+                                                  Object {
+                                                    "body": Object {
+                                                      "cell": "td",
+                                                      "row": [Function],
+                                                      "wrapper": "tbody",
+                                                    },
+                                                    "header": Object {
+                                                      "cell": "th",
+                                                      "row": "tr",
+                                                      "wrapper": "thead",
+                                                    },
+                                                    "table": "table",
+                                                  }
+                                                }
+                                                index={0}
+                                                key="0"
+                                                onHeaderRow={[Function]}
+                                                row={
+                                                  Array [
+                                                    Object {
+                                                      "children": <span>
+                                                        Name
+                                                      </span>,
+                                                      "className": "",
+                                                      "column": Object {
+                                                        "dataIndex": "name",
+                                                        "key": "name",
+                                                        "title": <span>
+                                                          Name
+                                                        </span>,
+                                                      },
+                                                      "key": "name",
+                                                    },
+                                                  ]
+                                                }
+                                                rows={
+                                                  Array [
+                                                    Array [
+                                                      Object {
+                                                        "children": <span>
+                                                          Name
+                                                        </span>,
+                                                        "className": "",
+                                                        "column": Object {
+                                                          "dataIndex": "name",
+                                                          "key": "name",
+                                                          "title": <span>
+                                                            Name
+                                                          </span>,
+                                                        },
+                                                        "key": "name",
+                                                      },
+                                                    ],
+                                                  ]
+                                                }
+                                              >
+                                                <TableHeaderRow
+                                                  columns={
+                                                    Array [
+                                                      Object {
+                                                        "dataIndex": "name",
+                                                        "key": "name",
+                                                        "title": <span>
+                                                          Name
+                                                        </span>,
+                                                      },
+                                                    ]
+                                                  }
+                                                  components={
+                                                    Object {
+                                                      "body": Object {
+                                                        "cell": "td",
+                                                        "row": [Function],
+                                                        "wrapper": "tbody",
+                                                      },
+                                                      "header": Object {
+                                                        "cell": "th",
+                                                        "row": "tr",
+                                                        "wrapper": "thead",
+                                                      },
+                                                      "table": "table",
+                                                    }
+                                                  }
+                                                  height={null}
+                                                  index={0}
+                                                  onHeaderRow={[Function]}
+                                                  row={
+                                                    Array [
+                                                      Object {
+                                                        "children": <span>
+                                                          Name
+                                                        </span>,
+                                                        "className": "",
+                                                        "column": Object {
+                                                          "dataIndex": "name",
+                                                          "key": "name",
+                                                          "title": <span>
+                                                            Name
+                                                          </span>,
+                                                        },
+                                                        "key": "name",
+                                                      },
+                                                    ]
+                                                  }
+                                                  rows={
+                                                    Array [
+                                                      Array [
+                                                        Object {
+                                                          "children": <span>
+                                                            Name
+                                                          </span>,
+                                                          "className": "",
+                                                          "column": Object {
+                                                            "dataIndex": "name",
+                                                            "key": "name",
+                                                            "title": <span>
+                                                              Name
+                                                            </span>,
+                                                          },
+                                                          "key": "name",
+                                                        },
+                                                      ],
+                                                    ]
+                                                  }
+                                                  store={
+                                                    Object {
+                                                      "getState": [Function],
+                                                      "setState": [Function],
+                                                      "subscribe": [Function],
+                                                    }
+                                                  }
+                                                >
+                                                  <tr
+                                                    style={
+                                                      Object {
+                                                        "height": null,
+                                                      }
+                                                    }
+                                                  >
+                                                    <th
+                                                      className=""
+                                                      key="name"
+                                                    >
+                                                      <span
+                                                        key="name"
+                                                      >
+                                                        Name
+                                                      </span>
+                                                    </th>
+                                                  </tr>
+                                                </TableHeaderRow>
+                                              </Connect(TableHeaderRow)>
+                                            </thead>
+                                          </TableHeader>
+                                          <tbody
+                                            className="ant-table-tbody"
+                                          />
+                                        </table>
+                                      </BaseTable>
+                                    </Connect(BaseTable)>
+                                  </div>
+                                </BodyTable>
+                                <div
+                                  className="ant-table-placeholder"
+                                  key="emptyText"
+                                >
+                                  No data
+                                </div>
+                              </div>
+                            </div>
+                          </ExpandableTable>
+                        </Connect(ExpandableTable)>
+                      </Provider>
+                    </Table>
+                  </LocaleReceiver>
+                </div>
+              </AnimateChild>
+            </div>
+          </Animate>
+        </Spin>
+      </div>
+    </Table>
+  </Styled(Table)>
+</Table>
+`;

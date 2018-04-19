@@ -3,8 +3,7 @@ import { Button } from '@tiarebalbi/fortaleza-ui-theme';
 
 const ButtonWrapper = () => {
   return (
-    <div className="details">
-      <h2>UI - Button</h2>
+    <div>
       <Button onClick={ () => console.log('clicked') }>Primary</Button>
       <Button palette="secondary">Secondary</Button>
       <Button palette="danger" icon="close-circle-o">danger</Button>

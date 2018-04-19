@@ -14,7 +14,7 @@
   "scripts": {
     "ci": "NODE_ENV=test CI=true run-p flow lint-staged test:cov",
     "flow": "flow",
-    "flow:fetch-types": "flow-typed install",
+    "flow:install": "flow-typed install",
     "flow:cov": "flow-coverage-report",
     "lint": "eslint src",
     "lint-staged": "lint-staged",

@@ -16,6 +16,7 @@ const ContentStyle = styled.div`
   .details {
     margin-left: 280px;
     margin-top: 20px;
+    margin-right: 30px;
   }
 
   ${media.tablet`
