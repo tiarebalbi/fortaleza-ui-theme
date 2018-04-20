@@ -165,3 +165,9 @@ export type TableProps<T> = {
   className?: string,
   style?: Object,
 };
+
+export type SideViewType = {
+  close: () => void,
+  component: any,
+  title: string,
+};

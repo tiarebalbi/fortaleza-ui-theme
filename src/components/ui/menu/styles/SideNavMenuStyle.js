@@ -6,7 +6,7 @@ import { media } from '../../../../themes/utils';
 
 export const StyledSideNav = styled.nav`
   background: ${palette(0, 'primary')};
-  box-shadow: 0 0.2rem 3.4rem 0 rgba(25, 75, 134, 0.25);
+  box-shadow: 0 2px 34px 0 rgba(25, 75, 134, 0.25);
   color: ${palette(4, 'primary')};
   bottom: 0;
   margin-top: 0;
@@ -20,14 +20,14 @@ export const StyledSideNav = styled.nav`
   `};
 
   a {
-    margin-bottom: 1.5rem;
-    margin-left: 0.5rem;
+    margin-bottom: 15px;
+    margin-left: 5px;
 
     i.anticon {
       display: block;
       color: ${palette(4, 'primary')};
-      font-size: 1.3rem;
-      margin-bottom: 0.5rem;
+      font-size: 13px;
+      margin-bottom: 5px;
     }
     span {
       color: ${palette(4, 'primary')};
