@@ -8,7 +8,7 @@ exports[`ui/SideView should render as expected 1`] = `
 >
   <styled.div>
     <div
-      className="sc-bdVaJa gKPEuE"
+      className="sc-bdVaJa fiMjLc"
     >
       <div
         className="container"
