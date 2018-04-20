@@ -11,7 +11,7 @@ export const StyledMenu = styled.header`
   font-size: 12px;
   padding: 10px 20px;
   height: 65px;
-  box-shadow: 0 0.2rem 3.4rem 0 rgba(74, 74, 74, 0.35);
+  box-shadow: 0 2px 34px 0 rgba(74, 74, 74, 0.35);
   left: 0;
   position: fixed;
   right: 0;

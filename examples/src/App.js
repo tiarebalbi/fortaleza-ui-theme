@@ -11,6 +11,7 @@ import {
 
 import ButtonWrapper from './components/ButtonWrapper';
 import ContentWrapper from './components/ContentWrapper';
+import SideViewWrapper from './components/SideViewWrapper';
 
 const link = {
   name: 'Voltar',
@@ -64,6 +65,7 @@ const App = () => (
       <PageSubMenu title="Página Inícial" link={link}>
         <a href="#botoes">Botões</a>
         <a href="#tabela">Tabela</a>
+        <a href="#side-view">SideView</a>
       </PageSubMenu>
       <div className="details">
 
@@ -73,6 +75,10 @@ const App = () => (
 
         <ContentWrapper title="Tabela" id="tabela">
           <Table title={() => 'Custom title'} size="small" columns={columns} dataSource={data}/>
+        </ContentWrapper>
+
+        <ContentWrapper title="SideView" id="side-view">
+          <SideViewWrapper/>
         </ContentWrapper>
       </div>
     </Content>

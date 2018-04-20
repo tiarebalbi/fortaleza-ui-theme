@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/SideView should render as expected 1`] = `
+<SideView
+  close={[MockFunction]}
+  component={[Function]}
+  title="Custom View"
+>
+  <styled.div>
+    <div
+      className="sc-bdVaJa fiMjLc"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="space"
+          onClick={[MockFunction]}
+        />
+        <div
+          className="content"
+        >
+          <header>
+            <h1>
+              Custom View
+            </h1>
+            <a
+              onClick={[MockFunction]}
+            >
+              <Icon
+                type="close-circle"
+              >
+                <i
+                  className="anticon anticon-close-circle"
+                />
+              </Icon>
+            </a>
+          </header>
+          <div
+            className="component"
+          >
+            <Component
+              close={[MockFunction]}
+              component={[Function]}
+              title="Custom View"
+            >
+              <div>
+                a
+              </div>
+            </Component>
+          </div>
+        </div>
+      </div>
+    </div>
+  </styled.div>
+</SideView>
+`;

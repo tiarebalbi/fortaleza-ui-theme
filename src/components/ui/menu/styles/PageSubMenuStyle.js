@@ -7,7 +7,7 @@ import { palette } from 'styled-theme';
 
 const PageSubMenuStyle = styled.div`
   background: url(${background}) #f9f9fc center top no-repeat;
-  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
   width: 258px;
   position: fixed;
   bottom: 0;
@@ -22,10 +22,10 @@ const PageSubMenuStyle = styled.div`
 
   .title-content {
     background: rgba(255, 255, 255, 0.89);
-    border-radius: 1.2rem;
-    box-shadow: 0 0.2rem 3.4rem 0 rgba(39, 52, 125, 0.25);
+    border-radius: 12px;
+    box-shadow: 0 2px 34px 0 rgba(39, 52, 125, 0.25);
     color: ${palette(0, 'primary')};
-    padding: 1.5rem;
+    padding: 15px;
     margin: 20px 10px 70px;
 
     h1 {
@@ -33,7 +33,7 @@ const PageSubMenuStyle = styled.div`
       font-weight: bold;
       font-size: 20px;
       text-align: center;
-      margin-bottom: 0.5rem;
+      margin-bottom: 5px;
     }
 
     p {
@@ -48,13 +48,13 @@ const PageSubMenuStyle = styled.div`
   }
   .options {
     a {
-      border-bottom: solid 0.1rem #d9daeb;
+      border-bottom: solid 1px #d9daeb;
       color: ${palette(0, 'primary')} !important;
       cursor: pointer;
       display: block;
-      height: 3.5rem;
-      line-height: 3.5rem;
-      padding-left: 1.5rem;
+      height: 35px;
+      line-height: 35px;
+      padding-left: 15px;
       font-size: 14px;
 
       &:hover {
