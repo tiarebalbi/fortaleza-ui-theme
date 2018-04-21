@@ -171,3 +171,9 @@ export type SideViewType = {
   component: any,
   title: string,
 };
+
+export type PageWrapperType = {
+  title: string,
+  description?: string,
+  children?: React.Node,
+};
