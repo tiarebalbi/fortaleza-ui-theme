@@ -1,6 +1,6 @@
 {
   "name": "@tiarebalbi/fortaleza-ui-theme",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "UI Theme",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
