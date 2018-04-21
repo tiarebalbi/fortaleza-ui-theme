@@ -17,4 +17,4 @@ export {
   SideNavMenu,
   TopNavMenu,
 } from './components/ui/menu';
-export { Content, Layout } from './components/ui/Layout';
+export { Content, Layout, Details } from './components/ui/Layout';

@@ -32,6 +32,10 @@ export const Content = (props: ContentType) => (
   <ContentStyle>{props.children}</ContentStyle>
 );
 
+export const Details = (props: ContentType) => (
+  <div className="details">{props.children}</div>
+);
+
 const MobileBlocker = styled.div`
   position: absolute;
   top: 0;

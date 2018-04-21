@@ -6,6 +6,7 @@ import {
   PageSubMenu,
   Layout,
   Content,
+  Details,
   Table,
 } from '@tiarebalbi/fortaleza-ui-theme';
 
@@ -67,8 +68,7 @@ const App = () => (
         <a href="#tabela">Tabela</a>
         <a href="#side-view">SideView</a>
       </PageSubMenu>
-      <div className="details">
-
+      <Details>
         <ContentWrapper title="Botões" id="botoes">
           <ButtonWrapper/>
         </ContentWrapper>
@@ -80,7 +80,7 @@ const App = () => (
         <ContentWrapper title="SideView" id="side-view">
           <SideViewWrapper/>
         </ContentWrapper>
-      </div>
+      </Details>
     </Content>
   </Layout>
 );

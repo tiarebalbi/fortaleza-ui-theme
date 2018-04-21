@@ -12,6 +12,16 @@ exports[`Layout Content should be able to match snapshot 1`] = `
 </Content>
 `;
 
+exports[`Layout Details should be able to match snapshot 1`] = `
+<Details>
+  <div
+    className="details"
+  >
+    Sample
+  </div>
+</Details>
+`;
+
 exports[`Layout Layout should be able to match snapshot 1`] = `
 <Layout>
   <ThemeProvider
