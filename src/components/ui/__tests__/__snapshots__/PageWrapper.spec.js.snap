@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/PageWrapper should render as expected 1`] = `
+<PageWrapper
+  title="Page"
+>
+  <styled.div>
+    <div
+      className="sc-bdVaJa dqEzrq"
+    >
+      <h1>
+        Page
+      </h1>
+      <div
+        className="wrapper-content"
+      >
+        a
+      </div>
+    </div>
+  </styled.div>
+</PageWrapper>
+`;
