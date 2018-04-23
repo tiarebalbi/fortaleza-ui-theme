@@ -22,6 +22,19 @@ const Style = styled.div`
     border-radius: 6px;
     box-shadow: 0 1px 10px 0 rgba(39, 52, 125, 0.1);
     padding: 12px;
+    height: 56px;
+
+    a,
+    button {
+      float: left;
+      margin-right: 10px;
+    }
+
+    a.right,
+    button.right {
+      float: right;
+      margin-left: 10px;
+    }
   }
 `;
 

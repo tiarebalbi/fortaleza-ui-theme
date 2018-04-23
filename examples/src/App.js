@@ -19,7 +19,6 @@ const link = {
   link: '/',
 };
 
-
 const columns = [{
   title: 'Name',
   dataIndex: 'name',
