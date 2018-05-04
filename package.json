@@ -110,7 +110,7 @@
     "npm-run-all": "^4.1.1",
     "object-assign": "4.1.1",
     "postcss-flexbugs-fixes": "3.3.1",
-    "postcss-loader": "2.1.4",
+    "postcss-loader": "2.1.5",
     "prettier": "^1.12.1",
     "prettier-eslint": "^8.8.1",
     "prettier-eslint-cli": "^4.3.0",
