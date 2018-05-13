@@ -42,7 +42,7 @@
     "example:deploy": "cd examples && yarn deploy"
   },
   "dependencies": {
-    "antd": "^3.5.0",
+    "antd": "^3.5.1",
     "classnames": "^2.2.5",
     "promise": "8.0.1",
     "prop-types": "^15.6.1",
