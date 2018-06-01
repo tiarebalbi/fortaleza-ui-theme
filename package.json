@@ -87,7 +87,7 @@
     "eslint-config-react-app": "^2.1.0",
     "eslint-loader": "2.0.0",
     "eslint-plugin-compat": "^2.3.0",
-    "eslint-plugin-flowtype": "2.48.0",
+    "eslint-plugin-flowtype": "2.49.0",
     "eslint-plugin-import": "2.12.0",
     "eslint-plugin-jest": "^21.17.0",
     "eslint-plugin-jsx-a11y": "6.0.3",
