@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "antd": "^3.5.0",
-    "classnames": "^2.2.5",
+    "classnames": "^2.2.6",
     "promise": "8.0.1",
     "prop-types": "^15.6.1",
     "react": "^16.4.0",
