@@ -1349,7 +1349,7 @@ browserslist@^2.1.2:
     caniuse-lite "^1.0.30000792"
     electron-to-chromium "^1.3.30"
 
-browserslist@^3.2.7, browserslist@^3.2.8:
+browserslist@^3.2.8:
   version "3.2.8"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-3.2.8.tgz#b0005361d6471f0f5952797a76fc985f1f978fc6"
   dependencies:
@@ -1461,9 +1461,9 @@ caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
   version "1.0.30000830"
   resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000830.tgz#6e45255b345649fd15ff59072da1e12bb3de2f13"
 
-caniuse-db@^1.0.30000843:
-  version "1.0.30000846"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000846.tgz#d9c86f914738db4da098eeded997413c44561bd2"
+caniuse-db@^1.0.30000846:
+  version "1.0.30000851"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000851.tgz#8a0d3ca4dde72068560acc98bacf75a359e8d3e3"
 
 caniuse-lite@^1.0.30000792:
   version "1.0.30000830"
@@ -2474,15 +2474,15 @@ eslint-module-utils@^2.2.0:
     debug "^2.6.8"
     pkg-dir "^1.0.0"
 
-eslint-plugin-compat@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-2.3.0.tgz#18d315cc68329844bd54dcc184be53d38a6f91c8"
+eslint-plugin-compat@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-2.4.0.tgz#827a5c57491929860918fbbc97794ba7309b6990"
   dependencies:
     babel-runtime "^6.26.0"
-    browserslist "^3.2.7"
-    caniuse-db "^1.0.30000843"
-    mdn-browser-compat-data "^0.0.20"
-    requireindex "^1.1.0"
+    browserslist "^3.2.8"
+    caniuse-db "^1.0.30000846"
+    mdn-browser-compat-data "^0.0.36"
+    requireindex "^1.2.0"
 
 eslint-plugin-flowtype@2.49.3:
   version "2.49.3"
@@ -4923,9 +4923,9 @@ md5@^2.1.0:
     crypt "~0.0.1"
     is-buffer "~1.1.1"
 
-mdn-browser-compat-data@^0.0.20:
-  version "0.0.20"
-  resolved "https://registry.yarnpkg.com/mdn-browser-compat-data/-/mdn-browser-compat-data-0.0.20.tgz#26e4a226d96cc5318fdc504d6dfd86907752da5c"
+mdn-browser-compat-data@^0.0.36:
+  version "0.0.36"
+  resolved "https://registry.yarnpkg.com/mdn-browser-compat-data/-/mdn-browser-compat-data-0.0.36.tgz#d347c618b648981fd0310035e556fd6871fde2fe"
   dependencies:
     extend "3.0.1"
 
@@ -6852,7 +6852,7 @@ require-uncached@^1.0.3:
     caller-path "^0.1.0"
     resolve-from "^1.0.0"
 
-requireindex@^1.1.0:
+requireindex@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/requireindex/-/requireindex-1.2.0.tgz#3463cdb22ee151902635aa6c9535d4de9c2ef1ef"
 
