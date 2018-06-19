@@ -45,7 +45,7 @@
     "antd": "^3.5.0",
     "classnames": "^2.2.6",
     "promise": "8.0.1",
-    "prop-types": "^15.6.1",
+    "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dev-utils": "^5.0.1",
     "react-dom": "^16.4.1",
