@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/fortaleza-packages
     docker:
-      - image: circleci/node:latest
+      - image: circleci/node:9.10.0
     environment:
       CC_TEST_REPORTER_ID: d7e2b90f97faae602d8cce6dc25dd531ee644f685bb31bb55a2aa45d39676f7a
       NPM_TOKEN: f9adfa8c-1943-4190-b097-57f6f1989f28
