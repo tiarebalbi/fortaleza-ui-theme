@@ -17,7 +17,12 @@ export default class PageSubMenu extends React.PureComponent<PageSubMenuType> {
           <h1>{title}</h1>
           {description && <p>{description}</p>}
           {link && (
-            <Button palette="secondary" href={link.href} icon={link.icon}>
+            <Button
+              className="btn-sub-menu-page"
+              palette="secondary"
+              href={link.href}
+              icon={link.icon}
+            >
               {link.name}
             </Button>
           )}

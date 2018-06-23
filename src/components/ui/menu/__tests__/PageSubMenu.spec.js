@@ -29,11 +29,13 @@ describe('ui/PageSubMenu', () => {
   it('should be able to render link', () => {
     wrapper.setProps({
       link: {
-        name: 'Button',
+        name: 'Custom Button',
         link: '/',
       },
     });
 
-    expect(wrapper.find('button')).toHaveText('Button');
+    expect(wrapper.find('a.btn-sub-menu-page span')).toHaveText(
+      'Custom Button',
+    );
   });
 });

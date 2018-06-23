@@ -42,7 +42,6 @@ exports[`ui/Table should render as expected 1`] = `
       locale={Object {}}
       prefixCls="ant-table"
       rowKey="key"
-      rowSelection={null}
       showHeader={true}
       size="small"
       useFixedHeader={false}
@@ -137,7 +136,6 @@ exports[`ui/Table should render as expected 1`] = `
                       rowClassName={[Function]}
                       rowKey="key"
                       rowRef={[Function]}
-                      rowSelection={null}
                       scroll={Object {}}
                       showHeader={true}
                       size="small"
@@ -225,7 +223,6 @@ exports[`ui/Table should render as expected 1`] = `
                           rowClassName={[Function]}
                           rowKey="key"
                           rowRef={[Function]}
-                          rowSelection={null}
                           scroll={Object {}}
                           showHeader={true}
                           size="small"
@@ -311,7 +308,6 @@ exports[`ui/Table should render as expected 1`] = `
                             rowClassName={[Function]}
                             rowKey="key"
                             rowRef={[Function]}
-                            rowSelection={null}
                             scroll={Object {}}
                             showHeader={true}
                             size="small"
@@ -422,7 +418,6 @@ exports[`ui/Table should render as expected 1`] = `
                                         "rowClassName": [Function],
                                         "rowKey": "key",
                                         "rowRef": [Function],
-                                        "rowSelection": null,
                                         "scroll": Object {},
                                         "showHeader": true,
                                         "size": "small",
@@ -532,7 +527,6 @@ exports[`ui/Table should render as expected 1`] = `
                                         "rowClassName": [Function],
                                         "rowKey": "key",
                                         "rowRef": [Function],
-                                        "rowSelection": null,
                                         "scroll": Object {},
                                         "showHeader": true,
                                         "size": "small",
@@ -652,7 +646,6 @@ exports[`ui/Table should render as expected 1`] = `
                                             "rowClassName": [Function],
                                             "rowKey": "key",
                                             "rowRef": [Function],
-                                            "rowSelection": null,
                                             "scroll": Object {},
                                             "showHeader": true,
                                             "size": "small",
@@ -764,7 +757,6 @@ exports[`ui/Table should render as expected 1`] = `
                                               "rowClassName": [Function],
                                               "rowKey": "key",
                                               "rowRef": [Function],
-                                              "rowSelection": null,
                                               "scroll": Object {},
                                               "showHeader": true,
                                               "size": "small",
@@ -913,7 +905,6 @@ exports[`ui/Table should render as expected 1`] = `
                                                   "rowClassName": [Function],
                                                   "rowKey": "key",
                                                   "rowRef": [Function],
-                                                  "rowSelection": null,
                                                   "scroll": Object {},
                                                   "showHeader": true,
                                                   "size": "small",
