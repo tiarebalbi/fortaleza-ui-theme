@@ -244,9 +244,9 @@ ansi-styles@^3.1.0, ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   dependencies:
     color-convert "^1.9.0"
 
-antd@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/antd/-/antd-3.5.0.tgz#046200573be6177f3b8f015ea49a6d7e7d6d5371"
+antd@^3.6.4:
+  version "3.6.4"
+  resolved "https://registry.yarnpkg.com/antd/-/antd-3.6.4.tgz#9a664aa2dcf7e027144934373b85395fb30a3373"
   dependencies:
     array-tree-filter "^2.0.0"
     babel-runtime "6.x"
@@ -255,10 +255,12 @@ antd@^3.5.0:
     css-animation "^1.2.5"
     dom-closest "^0.2.0"
     enquire.js "^2.1.1"
+    intersperse "^1.0.0"
     lodash "^4.17.5"
     moment "^2.19.3"
     omit.js "^1.0.0"
     prop-types "^15.5.7"
+    raf "^3.4.0"
     rc-animate "^2.4.1"
     rc-calendar "~9.6.0"
     rc-cascader "~0.13.0"
@@ -274,7 +276,7 @@ antd@^3.5.0:
     rc-pagination "~1.16.1"
     rc-progress "~2.2.2"
     rc-rate "~2.4.0"
-    rc-select "~8.0.1"
+    rc-select "~8.0.7"
     rc-slider "~8.6.0"
     rc-steps "~3.1.0"
     rc-switch "~1.6.0"
@@ -289,7 +291,7 @@ antd@^3.5.0:
     react-lazy-load "^3.0.12"
     react-slick "~0.23.1"
     shallowequal "^1.0.1"
-    warning "~3.0.0"
+    warning "~4.0.1"
 
 any-observable@^0.3.0:
   version "0.3.0"
@@ -3661,6 +3663,10 @@ inquirer@3.3.0, inquirer@^3.0.6:
     strip-ansi "^4.0.0"
     through "^2.3.6"
 
+intersperse@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/intersperse/-/intersperse-1.0.0.tgz#f2561fb1cfef9f5277cc3347a22886b4351a5181"
+
 invariant@^2.2.0, invariant@^2.2.2:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
@@ -6326,9 +6332,9 @@ rc-rate@~2.4.0:
     prop-types "^15.5.8"
     rc-util "^4.3.0"
 
-rc-select@~8.0.1:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/rc-select/-/rc-select-8.0.2.tgz#42c7f4760d47a3696fd91a20db5a3f156408a791"
+rc-select@~8.0.7:
+  version "8.0.14"
+  resolved "https://registry.yarnpkg.com/rc-select/-/rc-select-8.0.14.tgz#ff1763458a15519bea010ea15fecf6f59095b346"
   dependencies:
     babel-runtime "^6.23.0"
     classnames "2.x"
@@ -7948,9 +7954,15 @@ warning@2.x:
   dependencies:
     loose-envify "^1.0.0"
 
-warning@^3.0.0, warning@~3.0.0:
+warning@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/warning/-/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
+  dependencies:
+    loose-envify "^1.0.0"
+
+warning@~4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.1.tgz#66ce376b7fbfe8a887c22bdf0e7349d73d397745"
   dependencies:
     loose-envify "^1.0.0"
 
