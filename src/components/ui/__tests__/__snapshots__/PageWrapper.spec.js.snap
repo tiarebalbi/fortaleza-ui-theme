@@ -6,7 +6,7 @@ exports[`ui/PageWrapper should render as expected 1`] = `
 >
   <styled.div>
     <div
-      className="sc-bdVaJa fgBQjw"
+      className="sc-bdVaJa jCcGBc"
     >
       <h1>
         Page
