@@ -2,7 +2,15 @@
 
 UI Components and theme provider
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/365c14ec0a5c6bf5477e/maintainability)](https://codeclimate.com/repos/5ac313b0c6b1273d50000dc8/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/365c14ec0a5c6bf5477e/test_coverage)](https://codeclimate.com/repos/5ac313b0c6b1273d50000dc8/test_coverage)
+
 ---
+
+| Platform       | Details                                    |
+| -------------- |--------------------------------------------|
+| Install        | `yarn add @tiarebalbi/fortaleza-ui-theme`    |
+| npm            | `@tiarebalbi/fortaleza-ui-theme`             |
 
 ## How do I use this?
 
