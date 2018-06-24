@@ -10,6 +10,7 @@ const Style = styled.div`
   h1 {
     color: #4a4a4a;
     font-size: 20px;
+    margin-bottom: 0.5em;
   }
 
   p {

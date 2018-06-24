@@ -1,9 +1,18 @@
 import React from 'react';
+import styled from 'styled-components';
+
 import { Button } from '@tiarebalbi/fortaleza-ui-theme';
+
+const Style = styled.div`
+  button {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+`;
 
 const ButtonWrapper = () => {
   return (
-    <div>
+    <Style>
       <Button onClick={ () => console.log('clicked') }>Primary</Button>
       <Button palette="secondary">Secondary</Button>
       <Button palette="danger" icon="close-circle-o">danger</Button>
@@ -13,7 +22,7 @@ const ButtonWrapper = () => {
       <Button palette="grayscale">grayscale</Button>
       <Button disabled={ true }>Disabled</Button>
       <Button loading={ true } />
-    </div>
+    </Style>
   );
 };
 
