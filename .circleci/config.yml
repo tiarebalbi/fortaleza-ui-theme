@@ -6,7 +6,7 @@ jobs:
       - image: circleci/node:9.10.0
     environment:
       CC_TEST_REPORTER_ID: d7e2b90f97faae602d8cce6dc25dd531ee644f685bb31bb55a2aa45d39676f7a
-      NPM_TOKEN: f9adfa8c-1943-4190-b097-57f6f1989f28
+      NPM_TOKEN: bbc7ac38-b33f-4b79-86d5-ec5a45016457
       CODECOV_TOKEN: 5cf3b4b2-858c-4662-afb2-9dd7bd011efb
     steps:
       - checkout
