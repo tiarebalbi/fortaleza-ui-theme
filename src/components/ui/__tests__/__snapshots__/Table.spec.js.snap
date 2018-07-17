@@ -794,6 +794,7 @@ exports[`ui/Table should render as expected 1`] = `
                                             columns={
                                               Array [
                                                 Object {
+                                                  "className": undefined,
                                                   "dataIndex": "name",
                                                   "key": "name",
                                                   "title": <span>
@@ -819,6 +820,7 @@ exports[`ui/Table should render as expected 1`] = `
                                             columns={
                                               Array [
                                                 Object {
+                                                  "className": undefined,
                                                   "dataIndex": "name",
                                                   "key": "name",
                                                   "title": <span>
@@ -928,6 +930,7 @@ exports[`ui/Table should render as expected 1`] = `
                                                 columns={
                                                   Array [
                                                     Object {
+                                                      "className": undefined,
                                                       "dataIndex": "name",
                                                       "key": "name",
                                                       "title": <span>
@@ -962,6 +965,7 @@ exports[`ui/Table should render as expected 1`] = `
                                                       </span>,
                                                       "className": "",
                                                       "column": Object {
+                                                        "className": undefined,
                                                         "dataIndex": "name",
                                                         "key": "name",
                                                         "title": <span>
@@ -981,6 +985,7 @@ exports[`ui/Table should render as expected 1`] = `
                                                         </span>,
                                                         "className": "",
                                                         "column": Object {
+                                                          "className": undefined,
                                                           "dataIndex": "name",
                                                           "key": "name",
                                                           "title": <span>
@@ -997,6 +1002,7 @@ exports[`ui/Table should render as expected 1`] = `
                                                   columns={
                                                     Array [
                                                       Object {
+                                                        "className": undefined,
                                                         "dataIndex": "name",
                                                         "key": "name",
                                                         "title": <span>
@@ -1031,6 +1037,7 @@ exports[`ui/Table should render as expected 1`] = `
                                                         </span>,
                                                         "className": "",
                                                         "column": Object {
+                                                          "className": undefined,
                                                           "dataIndex": "name",
                                                           "key": "name",
                                                           "title": <span>
@@ -1050,6 +1057,7 @@ exports[`ui/Table should render as expected 1`] = `
                                                           </span>,
                                                           "className": "",
                                                           "column": Object {
+                                                            "className": undefined,
                                                             "dataIndex": "name",
                                                             "key": "name",
                                                             "title": <span>

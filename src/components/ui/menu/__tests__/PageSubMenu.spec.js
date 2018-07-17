@@ -34,8 +34,6 @@ describe('ui/PageSubMenu', () => {
       },
     });
 
-    expect(wrapper.find('a.btn-sub-menu-page span')).toHaveText(
-      'Custom Button',
-    );
+    expect(wrapper.find('.btn-sub-menu-page span')).toHaveText('Custom Button');
   });
 });
