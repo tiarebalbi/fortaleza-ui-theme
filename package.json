@@ -47,7 +47,7 @@
     "promise": "8.0.1",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
-    "react-dev-utils": "^5.0.1",
+    "react-dev-utils": "^5.0.2",
     "react-dom": "^16.4.2",
     "react-styled-flexboxgrid": "^2.4.0",
     "style-loader": "0.22.1",
