@@ -55,7 +55,7 @@
     "styled-reset": "^1.4.0",
     "styled-theme": "^0.3.3",
     "styled-tools": "^1.5.1",
-    "whatwg-fetch": "2.0.4"
+    "whatwg-fetch": "3.0.0"
   },
   "devDependencies": {
     "autoprefixer": "9.1.5",
