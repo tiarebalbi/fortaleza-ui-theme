@@ -6527,9 +6527,9 @@ react-slick@~0.23.1:
     lodash.debounce "^4.0.8"
     resize-observer-polyfill "^1.5.0"
 
-react-styled-flexboxgrid@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/react-styled-flexboxgrid/-/react-styled-flexboxgrid-2.4.0.tgz#208474f068b12abf4550c3918c9481ab750cc79e"
+react-styled-flexboxgrid@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/react-styled-flexboxgrid/-/react-styled-flexboxgrid-2.5.0.tgz#e80dcacc0387bf91fb0171364bd7d990b5987a9f"
   dependencies:
     lodash.isinteger "^4.0.4"
 
@@ -6996,12 +6996,6 @@ sax@^1.2.4:
 sax@~0.6.0:
   version "0.6.1"
   resolved "https://registry.npmjs.org/sax/-/sax-0.6.1.tgz#563b19c7c1de892e09bfc4f2fc30e3c27f0952b9"
-
-schedule@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/schedule/-/schedule-0.3.0.tgz#1be2ab2fc2e768536269ce7326efb478d6c045e8"
-  dependencies:
-    object-assign "^4.1.1"
 
 schedule@^0.4.0:
   version "0.4.0"
