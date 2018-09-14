@@ -6527,9 +6527,9 @@ react-slick@~0.23.1:
     lodash.debounce "^4.0.8"
     resize-observer-polyfill "^1.5.0"
 
-react-styled-flexboxgrid@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/react-styled-flexboxgrid/-/react-styled-flexboxgrid-2.5.0.tgz#e80dcacc0387bf91fb0171364bd7d990b5987a9f"
+react-styled-flexboxgrid@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/react-styled-flexboxgrid/-/react-styled-flexboxgrid-2.6.0.tgz#a4e498da928f100c65a2b1f9839cc2959b0f2400"
   dependencies:
     lodash.isinteger "^4.0.4"
 
