@@ -4,6 +4,8 @@ UI Components and theme provider
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/365c14ec0a5c6bf5477e/maintainability)](https://codeclimate.com/repos/5ac313b0c6b1273d50000dc8/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/365c14ec0a5c6bf5477e/test_coverage)](https://codeclimate.com/repos/5ac313b0c6b1273d50000dc8/test_coverage)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/tiarebalbi/flux-main-sample.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/tiarebalbi/flux-main-sample/context:javascript)
+
 
 ---
 
