@@ -2,7 +2,6 @@
 import * as React from 'react';
 import cx from 'classnames';
 import { Icon } from 'antd';
-import { Col, Row } from 'react-styled-flexboxgrid';
 
 import logo from '../../../assets/logo-icon.svg';
 import logoCompact from '../../../assets/app-icon.svg';
