@@ -2,7 +2,6 @@
 
 import * as React from 'react';
 import { Icon } from 'antd';
-import { palette } from 'styled-theme';
 import type { SideViewType } from '../../types';
 import SideViewStyle from './styles/SideViewStyle';
 
