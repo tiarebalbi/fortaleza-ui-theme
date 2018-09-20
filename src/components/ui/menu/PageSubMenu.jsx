@@ -1,7 +1,5 @@
 // @flow
 import * as React from 'react';
-import { Icon } from 'antd';
-
 import type { PageSubMenuType } from '../../../types';
 
 import Button from '../Button';
