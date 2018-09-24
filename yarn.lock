@@ -7435,9 +7435,9 @@ styled-components@^3.4.9:
     stylis-rule-sheet "^0.0.10"
     supports-color "^3.2.3"
 
-styled-reset@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/styled-reset/-/styled-reset-1.5.0.tgz#b7405dc523fa547e4cbbcecd90b2c0e9bb396d67"
+styled-reset@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/styled-reset/-/styled-reset-1.5.1.tgz#859f5f0b8f9e89aa8573258d5d89e5a78e79ad46"
 
 styled-theme@^0.3.3:
   version "0.3.3"
