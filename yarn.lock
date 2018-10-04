@@ -2881,9 +2881,9 @@ eslint-module-utils@^2.2.0:
     pkg-dir "^1.0.0"
 
 eslint-plugin-compat@^2.5.1:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-2.6.0.tgz#3a1292dd59c46710a81bb78c532561ecc4adf70f"
-  integrity sha512-uA1KA3X0nQNfW30M36ROTeUbENg2g4UG9hVhQH5iaR1fdEwOUABy0AwI0rQVEX2oa3poDZ7SvT25wLw2WWdJzA==
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-2.6.1.tgz#8a315723b1f799d80c514866c5dcfb8e1ca63e3a"
+  integrity sha512-dmxMyiZ+rfv+gkegRa/KYQFNkGaR1dX66Tp28VnHVkr0Q9UYgRW+rwZKVi934X4oZA+dDTQlInOCym2oNsBNYg==
   dependencies:
     "@babel/runtime" "^7.1.2"
     browserslist "^4.1.2"
