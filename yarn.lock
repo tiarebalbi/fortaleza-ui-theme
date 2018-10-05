@@ -2881,14 +2881,14 @@ eslint-module-utils@^2.2.0:
     pkg-dir "^1.0.0"
 
 eslint-plugin-compat@^2.5.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-2.6.1.tgz#8a315723b1f799d80c514866c5dcfb8e1ca63e3a"
-  integrity sha512-dmxMyiZ+rfv+gkegRa/KYQFNkGaR1dX66Tp28VnHVkr0Q9UYgRW+rwZKVi934X4oZA+dDTQlInOCym2oNsBNYg==
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-2.6.2.tgz#5e813d7c46939ba84f525fb34ba1ccd31e7791d7"
+  integrity sha512-1b6x7bwbs65LEzZITItdkrt2Ua7o6M1zlkcm2PV+FmVrGipwv+hd/kA07vZXFOKvLWK3BxOfGLBvqnZu+N0vrg==
   dependencies:
     "@babel/runtime" "^7.1.2"
     browserslist "^4.1.2"
     caniuse-db "^1.0.30000889"
-    mdn-browser-compat-data "^0.0.52"
+    mdn-browser-compat-data "^0.0.53"
 
 eslint-plugin-flowtype@2.50.3:
   version "2.50.3"
@@ -3265,15 +3265,15 @@ extend-shallow@^3.0.0, extend-shallow@^3.0.2:
     assign-symbols "^1.0.0"
     is-extendable "^1.0.1"
 
-extend@3.0.1, extend@~3.0.1:
-  version "3.0.1"
-  resolved "https://registry.npmjs.org/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
-  integrity sha1-p1Xqe8Gt/MWjHOfnYtuq3F5jZEQ=
-
-extend@~3.0.2:
+extend@3.0.2, extend@~3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
   integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
+
+extend@~3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
+  integrity sha1-p1Xqe8Gt/MWjHOfnYtuq3F5jZEQ=
 
 external-editor@^2.0.4:
   version "2.2.0"
@@ -5824,12 +5824,12 @@ md5@^2.1.0:
     crypt "~0.0.1"
     is-buffer "~1.1.1"
 
-mdn-browser-compat-data@^0.0.52:
-  version "0.0.52"
-  resolved "https://registry.yarnpkg.com/mdn-browser-compat-data/-/mdn-browser-compat-data-0.0.52.tgz#56fbcaea180c502dd9cd79230bb9806516e7f88c"
-  integrity sha512-QLA/GSnl6g/e0mMcoTmyDWbS5txJQVW7Fv9KDbVla/0YsEiY9ZvHLqKW/QqQK7iXVFgqFxWX6VjLE8t6ibA8gg==
+mdn-browser-compat-data@^0.0.53:
+  version "0.0.53"
+  resolved "https://registry.yarnpkg.com/mdn-browser-compat-data/-/mdn-browser-compat-data-0.0.53.tgz#ee67cf4f3bd93fddcef285ad9b5cdb0786ccf031"
+  integrity sha512-HQLa/4yE0jNXDgHsFUEuwIobKc+UZvJEFbbmI+w8NsrcrwpxBnS/Jv6+VAxL4Nt1oy8jz97SzAyvZSj1v5fxjQ==
   dependencies:
-    extend "3.0.1"
+    extend "3.0.2"
 
 mem@^1.1.0:
   version "1.1.0"
