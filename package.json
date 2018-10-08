@@ -50,7 +50,7 @@
     "react-dev-utils": "^6.0.3",
     "react-dom": "^16.5.2",
     "react-styled-flexboxgrid": "^2.6.0",
-    "style-loader": "0.23.0",
+    "style-loader": "0.23.1",
     "styled-components": "^3.4.9",
     "styled-reset": "^1.5.1",
     "styled-theme": "^0.3.3",
